@@ -25,7 +25,9 @@ namespace CursoAPI
                 .GetConnectionString("DefaultConnection")));
             services.AddScoped<ICursoAPI, CursoAPIRepository>();
             services.AddAutoMapper(typeof(Startup));
-            services.AddControllers().AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+            services.AddControllers()
+                .AddNewtonsoftJson(x => x.SerializerSettings
+                .ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddControllers();
         }
 

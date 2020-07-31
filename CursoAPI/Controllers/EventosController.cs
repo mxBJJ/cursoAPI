@@ -60,7 +60,9 @@ namespace CursoAPI.Controllers
 
             try
             {
-                var results = await _repository.GetAllPalestrantesAsyncByName(nome,false);
+                var palestrantes = await _repository.GetAllPalestrantesAsyncByName(nome,true);
+
+                var results = _mapper.Map<IEnumerable<PalestranteDto>>(palestrantes);
                 return Ok(results);
             }
             catch (System.Exception)

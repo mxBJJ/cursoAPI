@@ -1,23 +1,19 @@
 ﻿<Properties StartupConfiguration="{D4AD5C9F-BAE2-431B-9031-7082B0793F42}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CursoAPI/Dto/PalestranteDto.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CursoAPI/Controllers/EventosController.cs">
     <Files>
-      <File FileName="CursoAPI/Helpers/AutoMapperProfiles.cs" Line="19" Column="95" />
-      <File FileName="CursoAPI/Startup.cs" Line="27" Column="53" />
       <File FileName="CursoAPI.Repository/CursoAPIRepository.cs" Line="1" Column="1" />
-      <File FileName="CursoAPI/Controllers/EventosController.cs" Line="31" Column="66" />
-      <File FileName="CursoAPI/Dto/EventoDto.cs" Line="1" Column="1" />
-      <File FileName="CursoAPI/Dto/LoteDto.cs" Line="1" Column="1" />
-      <File FileName="CursoAPI/Dto/PalestranteDto.cs" Line="1" Column="1" />
+      <File FileName="CursoAPI.Repository/ICursoAPI.cs" />
+      <File FileName="CursoAPI/Controllers/EventosController.cs" Line="61" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CursoAPI" expanded="True">
             <Node name="CursoAPI" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Dto" expanded="True">
-                <Node name="PalestranteDto.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="EventosController.cs" selected="True" />
               </Node>
+              <Node name="Dto" expanded="True" />
               <Node name="Helpers" expanded="True" />
             </Node>
             <Node name="CursoAPI.Domain" expanded="True" />
