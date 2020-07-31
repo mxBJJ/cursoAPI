@@ -36,7 +36,7 @@ namespace CursoAPI.Repository
             return (await _context.SaveChangesAsync()) > 0;
         }
 
-        public async Task<Evento[]> GetAllEventosAsync(bool includePalestrantes = false)
+        public async Task<Evento[]> GetAllEventosAsync(int pageNumber, bool includePalestrantes = false)
         {
             IQueryable<Evento> query = _context.Eventos
                 .Include(e => e.Lotes)
@@ -48,7 +48,9 @@ namespace CursoAPI.Repository
                     .ThenInclude(p => p.Palestrante);
             }
 
-            query = query.OrderBy(e => e.Id);
+            int pageSize = 2;
+
+            query = query.OrderBy(e => e.Id).Skip((pageNumber - 1) * pageSize).Take(pageSize);
 
             return await query.ToArrayAsync();
         }
@@ -80,7 +82,7 @@ namespace CursoAPI.Repository
                     .ThenInclude(e => e.Evento);
             }
 
-            query = query.OrderBy(p => p.Nome).Where(p => p.Nome == nome);
+            query = query.OrderBy(p => p.Nome).Where(p => p.Nome.ToLower().Contains(nome.ToLower()));
 
             return await query.ToArrayAsync();
         }

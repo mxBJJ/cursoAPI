@@ -1,4 +1,7 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using AutoMapper;
+using CursoAPI.Dto;
 using CursoAPI.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,29 +13,34 @@ namespace CursoAPI.Controllers
     public class EventosController : ControllerBase
     {
         public readonly ICursoAPI _repository;
+        public readonly IMapper _mapper;
 
-        public EventosController(ICursoAPI repository)
+        public EventosController(ICursoAPI repository, IMapper mapper)
         {
+            _mapper = mapper;
             _repository = repository;
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get([FromQuery(Name ="page")] int pageNumber = 1)
         {
             try
             {
-                var results = await _repository.GetAllEventosAsync(true);
+                var eventos = await _repository.GetAllEventosAsync(pageNumber, true);
+
+                var results = _mapper.Map<IEnumerable<EventoDto>>(eventos);
                 return Ok(results);
 
-            } catch (System.Exception)
+            } catch (System.Exception ex)
             {
-                return this.StatusCode(StatusCodes.Status500InternalServerError, "Erro no banco de dados.");
+                return this
+                    .StatusCode(StatusCodes.Status500InternalServerError, $"Erro no banco de dados.{ex.Message}");
             }
         }
 
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
+        public async Task<IActionResult> GetById(int id)
         {
             try
             {

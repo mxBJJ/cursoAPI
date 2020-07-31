@@ -13,7 +13,7 @@ namespace CursoAPI.Repository
 
         //EVENTOS
         Task<Evento[]> GetAllEventosByTheme(string tema, bool includePalestrantes);
-        Task<Evento[]> GetAllEventosAsync(bool includePalestrantes);
+        Task<Evento[]> GetAllEventosAsync(int pageNumber, bool includePalestrantes);
         Task<Evento> GetEventoAsyncById(int EventoId, bool includePalestrantes);
 
 

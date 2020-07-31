@@ -6,3 +6,4 @@
 /Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/obj/Debug/netcoreapp3.1/CursoAPI.Domain.csproj.CoreCompileInputs.cache
 /Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/obj/Debug/netcoreapp3.1/CursoAPI.Domain.dll
 /Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/obj/Debug/netcoreapp3.1/CursoAPI.Domain.pdb
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/obj/Debug/netcoreapp3.1/CursoAPI.Domain.csprojAssemblyReference.cache

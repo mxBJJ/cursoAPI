@@ -64,3 +64,9 @@
 /Users/maxmendes/Projects/CursoAPI/CursoAPI/obj/Debug/netcoreapp3.1/CursoAPI.dll
 /Users/maxmendes/Projects/CursoAPI/CursoAPI/obj/Debug/netcoreapp3.1/CursoAPI.pdb
 /Users/maxmendes/Projects/CursoAPI/CursoAPI/obj/Debug/netcoreapp3.1/CursoAPI.genruntimeconfig.cache
+/Users/maxmendes/Projects/CursoAPI/CursoAPI/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/Users/maxmendes/Projects/CursoAPI/CursoAPI/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/maxmendes/Projects/CursoAPI/CursoAPI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+/Users/maxmendes/Projects/CursoAPI/CursoAPI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/maxmendes/Projects/CursoAPI/CursoAPI/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/maxmendes/Projects/CursoAPI/CursoAPI/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll

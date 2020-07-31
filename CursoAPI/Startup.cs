@@ -1,3 +1,4 @@
+using AutoMapper;
 using CursoAPI.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -23,6 +24,8 @@ namespace CursoAPI
             services.AddDbContext<CursoAPIContext>(x => x.UseSqlite(Configuration
                 .GetConnectionString("DefaultConnection")));
             services.AddScoped<ICursoAPI, CursoAPIRepository>();
+            services.AddAutoMapper(typeof(Startup));
+            services.AddControllers().AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddControllers();
         }
 
