@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoAPI", "CursoAPI\CursoAPI.csproj", "{D4AD5C9F-BAE2-431B-9031-7082B0793F42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoAPI.Domain", "CursoAPI.Domain\CursoAPI.Domain.csproj", "{43ECE146-0FDF-4EEA-842F-D2544F4425C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoAPI.Repository", "CursoAPI.Repository\CursoAPI.Repository.csproj", "{AAF18D7D-8E32-419C-B116-3903BBE3F726}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4AD5C9F-BAE2-431B-9031-7082B0793F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4AD5C9F-BAE2-431B-9031-7082B0793F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4AD5C9F-BAE2-431B-9031-7082B0793F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4AD5C9F-BAE2-431B-9031-7082B0793F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43ECE146-0FDF-4EEA-842F-D2544F4425C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43ECE146-0FDF-4EEA-842F-D2544F4425C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43ECE146-0FDF-4EEA-842F-D2544F4425C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43ECE146-0FDF-4EEA-842F-D2544F4425C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF18D7D-8E32-419C-B116-3903BBE3F726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF18D7D-8E32-419C-B116-3903BBE3F726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF18D7D-8E32-419C-B116-3903BBE3F726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF18D7D-8E32-419C-B116-3903BBE3F726}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/bin/Debug/netcoreapp3.1/CursoAPI.Domain.deps.json
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/bin/Debug/netcoreapp3.1/CursoAPI.Domain.dll
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/bin/Debug/netcoreapp3.1/CursoAPI.Domain.pdb
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/obj/Debug/netcoreapp3.1/CursoAPI.Domain.AssemblyInfoInputs.cache
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/obj/Debug/netcoreapp3.1/CursoAPI.Domain.AssemblyInfo.cs
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/obj/Debug/netcoreapp3.1/CursoAPI.Domain.csproj.CoreCompileInputs.cache
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/obj/Debug/netcoreapp3.1/CursoAPI.Domain.dll
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/obj/Debug/netcoreapp3.1/CursoAPI.Domain.pdb

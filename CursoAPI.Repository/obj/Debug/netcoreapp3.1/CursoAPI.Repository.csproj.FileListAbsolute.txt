@@ -1,0 +1,12 @@
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/bin/Debug/netcoreapp3.1/CursoAPI.Repository.deps.json
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/bin/Debug/netcoreapp3.1/CursoAPI.Repository.dll
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/bin/Debug/netcoreapp3.1/CursoAPI.Repository.pdb
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/bin/Debug/netcoreapp3.1/CursoAPI.Domain.dll
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/bin/Debug/netcoreapp3.1/CursoAPI.Domain.pdb
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/obj/Debug/netcoreapp3.1/CursoAPI.Repository.csprojAssemblyReference.cache
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/obj/Debug/netcoreapp3.1/CursoAPI.Repository.AssemblyInfoInputs.cache
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/obj/Debug/netcoreapp3.1/CursoAPI.Repository.AssemblyInfo.cs
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/obj/Debug/netcoreapp3.1/CursoAPI.Repository.csproj.CoreCompileInputs.cache
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/obj/Debug/netcoreapp3.1/CursoAPI.Repository.csproj.CopyComplete
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/obj/Debug/netcoreapp3.1/CursoAPI.Repository.dll
+/Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/obj/Debug/netcoreapp3.1/CursoAPI.Repository.pdb

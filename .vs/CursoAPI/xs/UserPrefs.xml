@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{D4AD5C9F-BAE2-431B-9031-7082B0793F42}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CursoAPI" expanded="True">
+            <Node name="CursoAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="CursoAPI.Domain" expanded="True" />
+            <Node name="CursoAPI.Repository" expanded="True">
+              <Node name="CursoAPIRepository.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CursoAPI PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
