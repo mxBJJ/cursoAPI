@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
+using CursoAPI.Domain;
 using CursoAPI.Dto;
 using CursoAPI.Repository;
 using Microsoft.AspNetCore.Http;
@@ -71,7 +72,6 @@ namespace CursoAPI.Controllers
             }
         }
 
-
         [HttpGet("palestrantes/{id}")]
         public async Task<IActionResult> GetPalestrantesById(int id)
         {
@@ -87,6 +87,79 @@ namespace CursoAPI.Controllers
                 return this.StatusCode(StatusCodes.Status500InternalServerError, "Erro no banco de dados.");
             }
 
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Post(Evento model)
+        {
+
+            try
+            {
+                _repository.Add(model);
+
+                if (await _repository.SaveChangesAsync())
+                {
+                    return Created($"api/evento/{model.Id}", model);
+                }
+            }
+
+            catch (System.Exception)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Erro no banco de dados.");
+            }
+
+            return BadRequest();
+        
+        }
+
+        [HttpPut("{EventoId}")]
+        public async Task<IActionResult> Put(int EventoId, Evento model)
+        {
+            try
+            {
+                var evento = await _repository.GetEventoAsyncById(EventoId, false);
+
+                if (evento == null) return NotFound();
+
+                _repository.Update(model);
+
+                if (await _repository.SaveChangesAsync())
+                {
+                    return Created($"api/evento/{model.Id}", model);
+                }
+            }
+
+            catch (System.Exception)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Erro no banco de dados.");
+            }
+
+            return BadRequest();
+        }
+
+        [HttpDelete("{EventoId}")]
+        public async Task<IActionResult> Delete(int EventoId, Evento model)
+        {
+            try
+            {
+                var evento = await _repository.GetEventoAsyncById(EventoId, false);
+
+                if (evento == null) return NotFound();
+
+                _repository.Delete(evento);
+
+                if (await _repository.SaveChangesAsync())
+                {
+                    return Ok();
+                }
+            }
+
+            catch (System.Exception)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Erro no banco de dados.");
+            }
+
+            return BadRequest();
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7IaCIw2Flj+5ERR2kAXpqLvZHD22Ngr0Ln3Fc/QKXXg8mDB0rSRjKJdyw75TevOLUEYEAhjqmmnGJv0naNmxvA==",
+  "dgSpecHash": "tDuNoddDR1MtkTMXB+XOCs950ZUvLpD2LRLSNaJq6jFU5RshwyJ7SEvNNn7khTtzVnwOlPV2J4pM19ggf2wj4A==",
   "success": true,
-  "projectFilePath": "/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/CursoAPI.Domain.csproj",
+  "projectFilePath": "C:\\Users\\maxme\\OneDrive\\Documentos\\Projetos .NET\\cursoAPI\\CursoAPI.Domain\\CursoAPI.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

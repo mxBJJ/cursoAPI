@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/CursoAPI.Domain.csproj": {}
+    "C:\\Users\\maxme\\OneDrive\\Documentos\\Projetos .NET\\cursoAPI\\CursoAPI.Domain\\CursoAPI.Domain.csproj": {}
   },
   "projects": {
-    "/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/CursoAPI.Domain.csproj": {
+    "C:\\Users\\maxme\\OneDrive\\Documentos\\Projetos .NET\\cursoAPI\\CursoAPI.Domain\\CursoAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/CursoAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\maxme\\OneDrive\\Documentos\\Projetos .NET\\cursoAPI\\CursoAPI.Domain\\CursoAPI.Domain.csproj",
         "projectName": "CursoAPI.Domain",
-        "projectPath": "/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/CursoAPI.Domain.csproj",
-        "packagesPath": "/Users/maxmendes/.nuget/packages/",
-        "outputPath": "/Users/maxmendes/Projects/CursoAPI/CursoAPI.Domain/obj/",
+        "projectPath": "C:\\Users\\maxme\\OneDrive\\Documentos\\Projetos .NET\\cursoAPI\\CursoAPI.Domain\\CursoAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\maxme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maxme\\OneDrive\\Documentos\\Projetos .NET\\cursoAPI\\CursoAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/maxmendes/.config/NuGet/NuGet.Config"
+          "C:\\Users\\maxme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
