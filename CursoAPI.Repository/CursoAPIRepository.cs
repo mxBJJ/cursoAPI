@@ -14,6 +14,7 @@ namespace CursoAPI.Repository
         public CursoAPIRepository(CursoAPIContext context)
         {
             _context = context;
+            //_context.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
 
         public void Add<T>(T entity) where T : class
@@ -48,9 +49,10 @@ namespace CursoAPI.Repository
                     .ThenInclude(p => p.Palestrante);
             }
 
-            int pageSize = 2;
+            int pageSize = 5;
 
-            query = query.OrderBy(e => e.Id).Skip((pageNumber - 1) * pageSize).Take(pageSize);
+            query = query.AsNoTracking()
+                .OrderBy(e => e.Id).Skip((pageNumber - 1) * pageSize).Take(pageSize);
 
             return await query.ToArrayAsync();
         }
@@ -67,7 +69,8 @@ namespace CursoAPI.Repository
                     .ThenInclude(p => p.Palestrante);
             }
 
-            query = query.OrderByDescending(e => e.DataEvento).Where(e => e.Tema.Contains(tema));
+            query = query.AsNoTracking()
+                .OrderByDescending(e => e.DataEvento).Where(e => e.Tema.Contains(tema));
 
             return await query.ToArrayAsync();
         }
@@ -82,7 +85,8 @@ namespace CursoAPI.Repository
                     .ThenInclude(e => e.Evento);
             }
 
-            query = query.OrderBy(p => p.Nome).Where(p => p.Nome.ToLower().Contains(nome.ToLower()));
+            query = query.AsNoTracking()
+                .OrderBy(p => p.Nome).Where(p => p.Nome.ToLower().Contains(nome.ToLower()));
 
             return await query.ToArrayAsync();
         }
@@ -100,7 +104,8 @@ namespace CursoAPI.Repository
                     .ThenInclude(p => p.Palestrante);
             }
 
-            query = query.OrderByDescending(e => e.DataEvento).Where(e => e.Id == id);
+            query = query.AsNoTracking()
+                .OrderByDescending(e => e.DataEvento).Where(e => e.Id == id);
 
             return await query.FirstOrDefaultAsync();
 
@@ -117,7 +122,8 @@ namespace CursoAPI.Repository
                     .ThenInclude(p => p.Evento);
             }
 
-            query = query.OrderBy(p => p.Nome).Where(p => p.Id == PalestranteId);
+            query = query.AsNoTracking()
+                .OrderBy(p => p.Nome).Where(p => p.Id == PalestranteId);
 
             return await query.FirstOrDefaultAsync();
         }

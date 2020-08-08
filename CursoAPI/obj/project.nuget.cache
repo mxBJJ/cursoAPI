@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZYoYtVKNYWtsFxEbZJdtcWkl7a7q3cDw0LKgJXud/SnQyCuh4jz2Y66DshBSQfMkIJ5xbl8ar+w0waHR/VRV4w==",
+  "dgSpecHash": "B55IjZrlfXjykYQhzxYWeiEWOpLwc1alhJfDw0m3D8+2VFOjqJKkGqjPqu1SnI/Q/CJy+apkarzvSyBumezslA==",
   "success": true,
   "projectFilePath": "C:\\Users\\maxme\\OneDrive\\Documentos\\Projetos .NET\\cursoAPI\\CursoAPI\\CursoAPI.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\maxme\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\3.1.6\\microsoft.entityframeworkcore.sqlite.3.1.6.nupkg.sha512",
     "C:\\Users\\maxme\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\3.1.6\\microsoft.entityframeworkcore.sqlite.core.3.1.6.nupkg.sha512",
     "C:\\Users\\maxme\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.design\\1.1.6\\microsoft.entityframeworkcore.sqlite.design.1.1.6.nupkg.sha512",
+    "C:\\Users\\maxme\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.6\\microsoft.entityframeworkcore.tools.3.1.6.nupkg.sha512",
     "C:\\Users\\maxme\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.6\\microsoft.extensions.caching.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\maxme\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.6\\microsoft.extensions.caching.memory.3.1.6.nupkg.sha512",
     "C:\\Users\\maxme\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\microsoft.extensions.configuration.3.1.6.nupkg.sha512",

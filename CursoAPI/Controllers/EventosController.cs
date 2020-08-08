@@ -45,7 +45,9 @@ namespace CursoAPI.Controllers
         {
             try
             {
-                var result = await _repository.GetEventoAsyncById(id, true);
+                var evento = await _repository.GetEventoAsyncById(id, true);
+                var result = _mapper.Map<EventoDto>(evento);
+
                 return Ok(result);
 
             }
@@ -78,7 +80,9 @@ namespace CursoAPI.Controllers
 
             try
             {
-                var result = await _repository.GetPalestranteAsyncById(id,false);
+                var evento = await _repository.GetPalestranteAsyncById(id,false);
+                var result = _mapper.Map<EventoDto>(evento);
+
                 return Ok(result);
 
             }

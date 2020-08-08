@@ -12,11 +12,13 @@ namespace CursoAPI.Helpers
         {
             CreateMap<Evento, EventoDto>()
                 .ForMember(dest => dest.Palestrantes, opt => {
-                    opt.MapFrom(src => src.PalestranteEventos.Select(x => x.Palestrante).ToList());
+                    opt.MapFrom(src => src.PalestranteEventos
+                    .Select(x => x.Palestrante).ToList());
                 });
             CreateMap<Palestrante, PalestranteDto>()
                 .ForMember(dest => dest.Eventos, opt => {
-                    opt.MapFrom(src => src.PalestranteEventos.Select(x => x.Evento).ToList());
+                    opt.MapFrom(src => src.PalestranteEventos
+                    .Select(x => x.Evento).ToList());
                 });
             CreateMap<Lote, LoteDto>();
             CreateMap<RedeSocial, RedeSocialDto>();

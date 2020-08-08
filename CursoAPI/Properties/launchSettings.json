@@ -19,7 +19,7 @@
     },
     "CursoAPI": {
       "commandName": "Project",
-      "launchBrowser": false,
+      "launchBrowser": true,
       "launchUrl": "api/eventos",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {

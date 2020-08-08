@@ -10,3 +10,15 @@
 /Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/obj/Debug/netcoreapp3.1/CursoAPI.Repository.csproj.CopyComplete
 /Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/obj/Debug/netcoreapp3.1/CursoAPI.Repository.dll
 /Users/maxmendes/Projects/CursoAPI/CursoAPI.Repository/obj/Debug/netcoreapp3.1/CursoAPI.Repository.pdb
+C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Repository\bin\Debug\netcoreapp3.1\CursoAPI.Repository.deps.json
+C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Repository\bin\Debug\netcoreapp3.1\CursoAPI.Repository.dll
+C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Repository\bin\Debug\netcoreapp3.1\CursoAPI.Repository.pdb
+C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Repository\bin\Debug\netcoreapp3.1\CursoAPI.Domain.dll
+C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Repository\bin\Debug\netcoreapp3.1\CursoAPI.Domain.pdb
+C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Repository\obj\Debug\netcoreapp3.1\CursoAPI.Repository.csprojAssemblyReference.cache
+C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Repository\obj\Debug\netcoreapp3.1\CursoAPI.Repository.AssemblyInfoInputs.cache
+C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Repository\obj\Debug\netcoreapp3.1\CursoAPI.Repository.AssemblyInfo.cs
+C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Repository\obj\Debug\netcoreapp3.1\CursoAPI.Repository.csproj.CoreCompileInputs.cache
+C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Repository\obj\Debug\netcoreapp3.1\CursoAPI.Repository.csproj.CopyComplete
+C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Repository\obj\Debug\netcoreapp3.1\CursoAPI.Repository.dll
+C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Repository\obj\Debug\netcoreapp3.1\CursoAPI.Repository.pdb
