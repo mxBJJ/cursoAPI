@@ -15,3 +15,4 @@ C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Domain\obj\De
 C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Domain\obj\Debug\netcoreapp3.1\CursoAPI.Domain.csproj.CoreCompileInputs.cache
 C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Domain\obj\Debug\netcoreapp3.1\CursoAPI.Domain.dll
 C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Domain\obj\Debug\netcoreapp3.1\CursoAPI.Domain.pdb
+C:\Users\maxme\OneDrive\Documentos\Projetos .NET\cursoAPI\CursoAPI.Domain\obj\Debug\netcoreapp3.1\CursoAPI.Domain.csprojAssemblyReference.cache

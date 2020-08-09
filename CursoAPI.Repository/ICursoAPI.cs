@@ -9,6 +9,7 @@ namespace CursoAPI.Repository
         void Add<T>(T entity) where T : class;
         void Update<T>(T entity) where T : class;
         void Delete<T>(T entity) where T : class;
+        double TotalPages();
         Task<bool> SaveChangesAsync();
 
         //EVENTOS

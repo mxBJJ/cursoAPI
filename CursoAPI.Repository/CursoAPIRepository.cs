@@ -10,6 +10,7 @@ namespace CursoAPI.Repository
     {
 
         public readonly CursoAPIContext _context;
+        public int totalPages;
 
         public CursoAPIRepository(CursoAPIContext context)
         {
@@ -50,6 +51,7 @@ namespace CursoAPI.Repository
             }
 
             int pageSize = 5;
+            totalPages = query.Count();
 
             query = query.AsNoTracking()
                 .OrderBy(e => e.Id).Skip((pageNumber - 1) * pageSize).Take(pageSize);
@@ -108,7 +110,6 @@ namespace CursoAPI.Repository
                 .OrderByDescending(e => e.DataEvento).Where(e => e.Id == id);
 
             return await query.FirstOrDefaultAsync();
-
         }
 
         public async Task<Palestrante> GetPalestranteAsyncById(int PalestranteId, bool includeEventos)
@@ -126,6 +127,11 @@ namespace CursoAPI.Repository
                 .OrderBy(p => p.Nome).Where(p => p.Id == PalestranteId);
 
             return await query.FirstOrDefaultAsync();
+        }
+
+        public double TotalPages()
+        {
+            return totalPages;
         }
     }
 }

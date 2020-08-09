@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using CursoAPI.Domain;
@@ -6,6 +8,8 @@ using CursoAPI.Dto;
 using CursoAPI.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualBasic.CompilerServices;
+using Newtonsoft.Json;
 
 namespace CursoAPI.Controllers
 {
@@ -25,11 +29,17 @@ namespace CursoAPI.Controllers
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery(Name ="page")] int pageNumber = 1)
         {
+
             try
             {
                 var eventos = await _repository.GetAllEventosAsync(pageNumber, true);
 
                 var results = _mapper.Map<IEnumerable<EventoDto>>(eventos);
+
+                double totalPages = Math.Ceiling(_repository.TotalPages()/5);
+
+                Response.Headers.Add("X-Total-Count", Convert.ToInt64(totalPages).ToString());
+
                 return Ok(results);
 
             } catch (System.Exception ex)
